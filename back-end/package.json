@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch ./api/server.js"
+    "dev": "node --watch ./api/server.js",
+    "start": "node --watch ./api/server.js "
   },
   "type": "module",
   "keywords": [],
@@ -15,6 +16,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongodb": "^6.13.0"
+    "mongodb": "^6.13.0",
+    "path": "^0.12.7",
+    "spotify-clone": "file:.."
   }
 }
