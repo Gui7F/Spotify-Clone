@@ -9,7 +9,7 @@ import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 
 const Artist = () => {
   const { id } = useParams();
-  const { name, image, banner } = artistsIndexedById[id];
+  const { name, banner } = artistsIndexedById[id];
   const songsArray = songsIndexedByArtist[name];
   const randomSongIndex = Math.floor(Math.random() * songsArray.length);
 

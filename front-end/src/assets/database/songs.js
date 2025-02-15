@@ -1745,4 +1745,4 @@ export const songsIndexedById = songsArray.reduce((acc, currentSong) => {
 
 shuffleArray(songsArray);
 
-console.log(songsIndexedById);
+

@@ -133,6 +133,8 @@ export const artistsIndexedById = artistArray.reduce((acc, currentObj) => {
   return acc;
 }, {});
 
+
+
 export const artistsIndexedByName = artistArray.reduce((acc, currentObj) => {
   acc[currentObj.name] = currentObj;
   return acc;
