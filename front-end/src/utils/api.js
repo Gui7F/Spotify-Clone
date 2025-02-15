@@ -1,8 +1,8 @@
 import axios from "axios";
-import "dotenv/config"
+
 
 const {API_PREFIX} = process.env
-const URL = API_PREFIX === "development" ?  "http://localhost:3001/api" : "/api";
+const URL = "http://localhost:3001/api"
 
 export const getArtists = async () => {
   const response = await axios.get(`${URL}/artists`);
