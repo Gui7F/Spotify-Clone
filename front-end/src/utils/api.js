@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const {API_PREFIX} = process.env
+
 const URL = "http://localhost:3001/api"
 
 export const getArtists = async () => {

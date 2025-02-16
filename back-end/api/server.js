@@ -12,7 +12,9 @@ const {PORT} = process.env || 3000
 
 app.use(cors())
 
-
+app.get("/api", async (req, res) =>{
+    res.send("Test")
+})
 
 app.get(`/api/artists`, async (req, res) => {
   res.send(await db.collection("artists").find({}).toArray())
