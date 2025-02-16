@@ -1,5 +1,5 @@
 import { shuffleArray } from "../../utils/shuffle.js";
-import { getSongs } from "../../utils/api.js";
+import { getSongs } from "../../api/api.js";
 
 export const songsArray = await getSongs();
 
