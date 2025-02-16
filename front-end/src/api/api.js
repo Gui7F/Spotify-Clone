@@ -1,8 +1,8 @@
 import axios from "axios";
 
-
-
-const URL = "http://localhost:3001/api"
+// const URL = "http://localhost:3001/api"
+ 
+  const URL = "https://spotify-clone-0jko.onrender.com/api"
 
 export const getArtists = async () => {
   const response = await axios.get(`${URL}/artists`);
