@@ -14,11 +14,11 @@ app.use(cors())
 
 
 
-app.get(`/api/apiartists`, async (req, res) => {
+app.get(`/api/artists`, async (req, res) => {
   res.send(await db.collection("artists").find({}).toArray())
 })
 
-app.get(`/api/apisongs`, async (req, res) => {
+app.get(`/api/songs`, async (req, res) => {
     res.send(await db.collection("songs").find({}).toArray())
 })
 
