@@ -7,7 +7,7 @@ const __dirname = path.resolve()
 
 
 const app = express()
-const PORT = 3001
+const {PORT} = process.env || 3000
 
 
 app.use(cors())
